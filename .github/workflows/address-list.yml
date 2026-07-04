@@ -56,6 +56,7 @@ jobs:
 
           echo "# MikroTik RouterOS DNS Forward Rules using GFWlist Generator" > address-list.rsc
           echo "# Last modified: $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S') CST" >> address-list.rsc
+          echo "# Telegram Messenger https://t.me/hkgali" >> address-list.rsc
           echo "# " >> address-list.rsc
           echo "/ip dns static" >> address-list.rsc
           echo "remove [find address-list=1.1.1.1]" >> address-list.rsc
