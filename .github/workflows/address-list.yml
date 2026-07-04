@@ -54,9 +54,9 @@ jobs:
           sed -E 's/^\|+//; s/https?:\/\///; s/^[.]+//; s/([a-zA-Z0-9.-]+\.[a-zA-Z]{2,}).*/\1/' | \
           sort -u > address-list.txt
 
-          echo "# RouterOS DNS Forward Address Lists" > address-list.rsc
+          echo "# MikroTik RouterOS DNS Forward Rules using GFWlist Generator" > address-list.rsc
           echo "# Last modified: $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S') CST" >> address-list.rsc
-          echo "#" >> address-list.rsc
+          echo "# " >> address-list.rsc
           echo "/ip dns static" >> address-list.rsc
           echo "remove [find address-list=1.1.1.1]" >> address-list.rsc
           sed "s/^/add type=FWD match-subdomain=yes forward-to=1.1.1.1 address-list=1.1.1.1 name=/g" address-list.txt >> address-list.rsc
