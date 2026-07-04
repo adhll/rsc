@@ -59,8 +59,8 @@ jobs:
           echo "# Telegram @hkgali https://t.me/hkgali" >> address-list.rsc
           echo "# " >> address-list.rsc
           echo "/ip dns static" >> address-list.rsc
-          echo "remove [find address-list=1.1.1.1]" >> address-list.rsc
-          sed "s/^/add type=FWD match-subdomain=yes forward-to=1.1.1.1 address-list=1.1.1.1 name=/g" address-list.txt >> address-list.rsc
+          echo "remove [find address-list=gfwlist]" >> address-list.rsc
+          sed "s/^/add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=/g" address-list.txt >> address-list.rsc
 
       - name: Commit changes
         if: steps.check.outputs.changed == 'true'
