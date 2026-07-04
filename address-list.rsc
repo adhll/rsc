@@ -1,6 +1,6 @@
-# RouterOS DNS Forward Address Lists
-# Last modified: 2026-07-02 20:00:29 CST
-#
+# MikroTik RouterOS DNS Forward Rules using GFWlist Generator
+# Last modified: 2026-07-04 17:22:29 CST
+# 
 /ip dns static
 remove [find address-list=1.1.1.1]
 add type=FWD match-subdomain=yes forward-to=1.1.1.1 address-list=1.1.1.1 name=000webhost.com
