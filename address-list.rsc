@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-07-22 18:15:18 CST
+# Last modified: 2026-07-24 13:12:16 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -712,6 +712,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=cia.gov
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=cici.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ciciai.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=circle19.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=cirosantilli.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=citizencn.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=citizenlab.ca
@@ -2113,6 +2114,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=kantie.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=kaotic.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=karayou.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=kards.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=kathmandupost.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=kawaiikawaii.jp
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=kawase.com
