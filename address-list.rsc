@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-07-30 15:27:56 CST
+# Last modified: 2026-07-30 18:13:03 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -2199,6 +2199,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=leonardo.ai
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=lesoir.be
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=letscorp.net
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=level-plus.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=lexica.art
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=lhakar.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=li.taipei
