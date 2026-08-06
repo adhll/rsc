@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-08-02 22:36:57 CST
+# Last modified: 2026-08-06 18:28:39 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -299,7 +299,6 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=atnext.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=auctions.yahoo.co.jp
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=audacy.com
-add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=auntology.fandom.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=autodraw.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=av.movie
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=av01.tv
@@ -1147,6 +1146,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=falunhr.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=famunion.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=fanbox.cc
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=fandom.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=fangeqiang.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=fanglizhi.info
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=fangong.org
@@ -1839,7 +1839,6 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=home.saxo
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=homedepot.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=homeservershow.com
-add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hongkong.fandom.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hongkongfp.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hongzhi.li
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=honven.xyz
