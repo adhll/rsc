@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-08-06 18:28:39 CST
+# Last modified: 2026-08-09 17:29:12 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -133,6 +133,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=agro.hk
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ai.dev
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ai.studio
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=aihub.top
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=aiosearch.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=aiph.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=airconsole.com
@@ -344,6 +345,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=barnabu.co.uk
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=bartender.dowjones.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=barton.de
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=basemaps.arcgis.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=bastillepost.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=bayvoice.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=bb-chat.tv
@@ -1107,6 +1109,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=expatshield.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=expecthim.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=expekt.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=experience.arcgis.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=exploader.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=expressnews.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=expressvpn.com
