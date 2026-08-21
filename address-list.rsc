@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-08-19 11:38:07 CST
+# Last modified: 2026-08-21 11:42:02 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -503,6 +503,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=breakgfw.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=breakingtweets.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=breakwall.net
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=briarproject.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=brill.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=brizzly.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=broadpressinc.com
@@ -645,6 +646,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=chat.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=chat.lmsys.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=chatgpt.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=chatgpt.site
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=chatpdf.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=chaturbate.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=checkgfw.com
