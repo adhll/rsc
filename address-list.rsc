@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-08-21 11:42:02 CST
+# Last modified: 2026-08-22 14:22:18 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -1807,6 +1807,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=himemix.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hindustantimes.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hinet.net
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=historylines.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hitbtc.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hitomi.la
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hive.blog
@@ -2147,6 +2148,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=kinmen.travel
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=kinokuniya.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=kiwi.kz
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=kiwix.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=kk-whys.co.jp
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=kkbox.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=kknews.cc
@@ -2342,6 +2344,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=maven.neoforged.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mcadforums.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mcaf.ee
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mceindex.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mcusercontent.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=md-t.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=me.me
@@ -3109,6 +3112,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=savetibet.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=savetibetstore.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=saveuighur.org
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=sb.sb
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=sbme.me
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=sbti.unun.dev
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=schema.org
