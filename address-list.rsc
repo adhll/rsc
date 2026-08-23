@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-08-22 14:22:18 CST
+# Last modified: 2026-08-23 15:25:12 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -227,6 +227,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=api.palworldgame.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=api.pureapk.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=api.recaptcha.net
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=api.shuaiapi.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=api.steampowered.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=api5.futunn.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=apiary.io
@@ -4124,6 +4125,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=x.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=x.company
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=x3guide.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=x86.fr
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=xbabe.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=xbookcn.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=xbtce.com
