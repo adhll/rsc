@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-08-28 16:00:30 CST
+# Last modified: 2026-08-31 02:15:58 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -1393,6 +1393,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=getlantern.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=getmalus.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=getmdl.io
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=getmonero.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=getoutline.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=getsession.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=getsync.com
@@ -2590,6 +2591,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nhentai.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nic.cz.cc
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nic.gov
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nicoseiga.jp
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nicovideo.jp
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nightswatch.top
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nikke-en.com
