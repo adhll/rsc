@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-08-31 02:15:58 CST
+# Last modified: 2026-09-04 22:37:02 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -841,6 +841,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=csuchen.de
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=csw.org.uk
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ct.org.tw
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ctee.com.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ctinets.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ctinews.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ctinsider.com
@@ -1826,6 +1827,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hkcoc.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hkcoc.weather.com.hk
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hkdc.us
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hkej.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hket.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hkfaa.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hkgalden.com
@@ -2246,6 +2248,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=linktr.ee
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=linux.do
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=linux.org.hk
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=linux.sb
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=liquiditytp.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=liquidvpn.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=listennotes.com
