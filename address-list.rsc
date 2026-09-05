@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-09-04 22:37:02 CST
+# Last modified: 2026-09-05 13:03:34 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -10,6 +10,8 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=1000giri.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=10beasts.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=10musume.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=123av.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=123av.me
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=12bet.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=12vpn.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=12vpn.net
@@ -3064,6 +3066,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=rmbl.ws
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=roblox.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=robustnessiskey.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=roc-taiwan.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=rocket-inc.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=rocket.chat
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=rocksdb.org
@@ -3073,6 +3076,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=rolsociety.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ronjoneswriter.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=rou.video
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=roushuwo.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=rsdlmonitor.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=rsf-chinese.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=rsf.org
@@ -3373,6 +3377,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=superpages.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=supervpn.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=superzooi.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=supjav.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=support.futunn.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=supremecourt.gov
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=suprememastertv.com
@@ -3403,10 +3408,12 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=taaze.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=taedp.org.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=tagwalk.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=taiav.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=tails.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=taipeisociety.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=taipeitimes.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=taisounds.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=taiwanembassy.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=taiwanhot.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=taiwanjustice.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=taiwanncf.org.tw
@@ -4087,6 +4094,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=writesonic.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=wsj.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=wsj.net
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=wtfpass.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=wufafangwen.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=wufi.org.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=wujieliulan.com
