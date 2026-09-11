@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-09-11 22:42:16 CST
+# Last modified: 2026-09-12 02:00:04 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
