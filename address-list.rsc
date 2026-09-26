@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-09-22 01:26:53 CST
+# Last modified: 2026-09-26 14:51:46 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -551,6 +551,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=c-est-simple.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=c-span.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=c-spanvideo.org
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=c.go-mpulse.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=c.mi.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=c2cx.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=c3pool.com
@@ -2961,6 +2962,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=qianmo.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=qiwen.lu
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=qmp4.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=qobuz.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=qoos.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=qq.co.za
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=qstatus.com
