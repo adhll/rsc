@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-09-26 23:45:44 CST
+# Last modified: 2026-09-30 21:11:23 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -1336,6 +1336,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=futustatic.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=fututrade.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=fututrustee.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=fuyin116.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=fw.cm
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=fxcm-chinese.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=fxnetworks.com
@@ -2489,6 +2490,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mubi.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mullvad.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=multiply.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=muse.ai
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=music.amazon.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=musixmatch.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=muzi.com
