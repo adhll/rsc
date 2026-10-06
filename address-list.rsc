@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-10-03 02:49:02 CST
+# Last modified: 2026-10-06 18:54:39 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -135,6 +135,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=agro.hk
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ai.dev
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ai.studio
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=aidc.com.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=aihub.top
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=aiosearch.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=aiph.net
@@ -469,6 +470,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=bloombergview.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=bloomfortune.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=blubrry.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=blue-plus.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=bmdru.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=bnbstatic.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=bnext.com.tw
@@ -491,6 +493,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=boxpn.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=boxun.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=boxun.tv
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=boylove.cc
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=boysmaster.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=br.st
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=braumeister.org
@@ -567,6 +570,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=campaign-archive.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=campaignforuyghurs.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=cams.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=cangku.moe
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=canva.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=canyu.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=caobian.info
@@ -810,6 +814,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=coursehero.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=covenantswatch.org.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=coze.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=cpc.com.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=cpj.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=cpu-monkey.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=cq99.us
@@ -832,6 +837,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=crucial.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=crunchyroll.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=cruxpool.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=csc.com.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=csdparty.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=csis.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=csmonitor.com
@@ -921,6 +927,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=devio.us
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=devpn.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=devv.ai
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=dh.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=diaoyuislands.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=digiland.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=digisfera.com
@@ -1107,6 +1114,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=evschool.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=exchristian.hk
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=exhentai.org
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=eximbank.com.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=exmo.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=exmormon.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=expatshield.com
@@ -1761,7 +1769,9 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hakkatv.org.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=halktv.com.tr
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hanime.tv
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hanime1.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hanime1.me
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hanimeone.me
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hardsextube.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hautelook.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hautelookcdn.com
@@ -1784,6 +1794,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=helpster.de
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hembed.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hentai.tv
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=hentaiclub.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=heqinglian.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=heritage.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=herokuapp.com
@@ -1928,6 +1939,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=iask.ca
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=iavian.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ibvpn.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=icdf.org.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=icedrive.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=icij.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=icl-fi.org
@@ -1984,6 +1996,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=indiandefensenews.in
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=indiatoday.in
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=indiemerch.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=indsr.org.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=inews-api.tvb.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=info-graf.fr
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=infosec.exchange
@@ -2010,6 +2023,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=investing.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=invidio.us
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=inxian.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ipac.global
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ipdefenseforum.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ipfire.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ipfs.4everland.io
@@ -2068,9 +2082,11 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=jav321.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=javakiba.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=javbus.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=javchu.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=javdb.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=javfinder.ai
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=javfor.me
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=javfree.me
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=javhub.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=javhuge.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=javlibrary.com
@@ -2092,6 +2108,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=jinx.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=jitouch.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=jkb.cc
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=jkforum.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=jma.go.jp
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=jmsc.hku.hk
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=jmscult.com
@@ -2139,6 +2156,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=keycdn.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=kfor.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=khatrimaza.org
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=khc.edu.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=kichiku-doujinko.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=kik.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=killwall.com
@@ -2184,6 +2202,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=lama.com.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=lamayeshe.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=lamnia.co.uk
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=landbank.com.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=landofhope.tv
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=lantern.io
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=laogai.org
@@ -2337,6 +2356,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mastodon.xyz
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=matainja.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=material.io
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=matichon.co.th
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=matome-plus.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=matome-plus.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=matrix.org
@@ -2422,11 +2442,14 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ministrybooks.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=minzhuzhongguo.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=miraheze.org
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mirdc.org.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=miroguide.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mirror.xyz
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mirrorbooks.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mirrormedia.mg
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=missav.ai
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=missav.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=missav.live
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=missav.ws
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mistral.ai
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mitbbs.com
@@ -2450,6 +2473,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mod.io
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=modernchinastudies.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=moeerolibrary.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=moeli-desu.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=moeshare.cc
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mog.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mohu.club
@@ -2529,6 +2553,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nationalawakening.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nationalinterest.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nationalreview.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nationthailand.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nationwide.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=naughtyamerica.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=naver.com
@@ -2540,6 +2565,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nchrd.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ncn.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ndi.org
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ned.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nekoslovakia.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=neo-miracle.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=neodb.social
@@ -2631,6 +2657,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=npsboost.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nradio.me
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nrk.no
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nstc.org.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ntd.tv
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ntdtv.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ntdtv.com.tw
@@ -2867,6 +2894,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=points-media.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=pokerstars.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=pokerstars.net
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=poland.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=politicalchina.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=poloniex.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=polymarket.com
@@ -2962,6 +2990,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=qiangwaikan.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=qiangyou.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=qianmo.tw
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=qingse.one
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=qiwen.lu
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=qmp4.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=qobuz.com
@@ -3064,6 +3093,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=rocket-inc.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=rocket.chat
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=rocksdb.org
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=rocmgov.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=rojo.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=rolfoundation.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=rolia.net
@@ -3460,6 +3490,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=textnow.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=textnow.me
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=tfc-taiwan.org.tw
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=tfd.org.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=tfhub.dev
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=tfiflve.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=tg-me.com
@@ -3653,6 +3684,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=tryheart.jp
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=tsdr.uspto.gov
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=tt1069.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ttl.com.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=tttan.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ttv.com.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ttvnw.net
@@ -3705,6 +3737,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=tweez.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=twelve.today
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=twerkingbutt.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=twfhcsec.com.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=twftp.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=twgov.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=twgreatdaily.com
@@ -3746,6 +3779,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=twtkr.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=twttr.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=tx.me
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=tybio.com.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=tycool.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=typepad.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=typeset.io
@@ -3934,6 +3968,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=vrchat.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=vrporn.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=vrsmash.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=vscc.org.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=vtunnel.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=vultryhw.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=w-pool.com
@@ -4177,6 +4212,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=xvideos.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=xvideos.es
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=xvinlink.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=xx.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=xxx.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=xxx.xxx
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=xxxx.com.au
