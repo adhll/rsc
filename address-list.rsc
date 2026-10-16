@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-10-06 18:54:39 CST
+# Last modified: 2026-10-16 20:51:27 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -63,6 +63,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=6parker.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=6parknews.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=7capture.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=7x24hrs.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=8-d.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=85.17.73.31/
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=85cc.us
@@ -2400,7 +2401,9 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=meripet.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=merit-times.com.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=messenger.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=meta.ai
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=meta.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=metaaivm.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=metafilter.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=metamask.io
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=metart.com
