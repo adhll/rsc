@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-10-16 20:51:27 CST
+# Last modified: 2026-10-23 21:56:15 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -800,6 +800,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=compileheart.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=connect.facebook.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=conoha.jp
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=console.typesafe.ai
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=contests.twilio.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=cool18.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=coolaler.com
@@ -1355,6 +1356,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=g.co
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=g0v.social
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=g6hentai.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ga.jspm.io
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=gab.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=gabocorp.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=gagaoolala.com
