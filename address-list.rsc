@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-10-25 01:05:29 CST
+# Last modified: 2026-10-30 18:34:53 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -208,6 +208,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=anonfiles.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=anonymouse.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=anthonycalzadilla.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=anthropic.auth0.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=anthropic.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=antiwave.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=antpool.com
@@ -514,6 +515,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=brookings.edu
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=brutaltgp.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=bsky.app
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=bsky.chat
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=bsky.network
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=bsky.social
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=bt4g.org
@@ -739,7 +741,10 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=clashyun.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=classicalguitarblog.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=claude.ai
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=claude.app
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=claude.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=claudemcpcontent.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=claudeusercontent.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=cldr.unicode.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=clearsurance.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=clementine-player.org
