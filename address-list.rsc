@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-10-30 18:34:53 CST
+# Last modified: 2026-10-31 15:45:00 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -232,6 +232,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=api.recaptcha.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=api.shuaiapi.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=api.steampowered.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=api.themoviedb.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=apiary.io
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=apigee.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=apk.support
@@ -3675,6 +3676,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=torproject.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=torrentgalaxy.to
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=torrentkitty.tv
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=torrentleech.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=torrentprivacy.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=torrentproject.se
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=torrenty.org
@@ -4286,6 +4288,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=youtubegaming.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=youtubekids.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=youversion.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=youversionapi.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=youwin.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=youxu.info
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=yt.be
