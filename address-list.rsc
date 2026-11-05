@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-11-04 02:49:49 CST
+# Last modified: 2026-11-05 15:33:40 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -2376,7 +2376,6 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=matters.town
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=matthewdgreen.wordpress.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mattwilcox.net
-add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=maven.neoforged.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mcadforums.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mcaf.ee
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=mceindex.com
@@ -2585,6 +2584,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nekoslovakia.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=neo-miracle.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=neodb.social
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=neoforged.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=neowin.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=nephobox.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=netalert.me
