@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-11-13 19:43:13 CST
+# Last modified: 2026-11-20 17:26:15 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -1021,6 +1021,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=dtiblog.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=dtic.mil
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=dubox.com
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=duck.ai
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=duck.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=duckduckgo.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=duckmylife.com
@@ -1370,9 +1371,9 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=gabocorp.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=gagaoolala.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=galenwu.com
-add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=game735.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=gamer.com.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=gamez.com.tw
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=gamma.app
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ganjing.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ganjingworld.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=gaoming.net
@@ -3322,6 +3323,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=sotwe.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=soubory.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=soulcaliburhentai.net
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=soulogic.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=soundcloud.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=soundofhope.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=soundon.fm
