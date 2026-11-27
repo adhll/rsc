@@ -1,5 +1,5 @@
 # MikroTik RouterOS DNS Forward Rules using GFWlist Generator
-# Last modified: 2026-11-21 02:08:43 CST
+# Last modified: 2026-11-28 03:16:00 CST
 # Telegram @hkgali https://t.me/hkgali
 # 
 /ip dns static
@@ -138,6 +138,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=agro.hk
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ai.dev
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=ai.studio
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=aicu.cc
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=aidc.com.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=aihub.top
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=aiosearch.com
@@ -900,6 +901,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=daliulian.org
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=danbooru.donmai.us
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=danke4china.net
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=danmakus.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=darmau.co
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=darpa.mil
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=darrenliuwei.com
@@ -3353,6 +3355,7 @@ add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist na
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=southnews.com.tw
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=southpark.cc.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=sowers.org.hk
+add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=spacedesk.net
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=spaceforce.mil
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=spaces.hightail.com
 add type=FWD match-subdomain=yes forward-to=192.168.88.2 address-list=gfwlist name=spacex.com
